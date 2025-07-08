@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navItems = [
-  { name: "Home", to: "home" },
-  { name: "About", to: "about" },
-  { name: "Skill", to: "skill" },
-  { name: "Project", to: "project" },
-  { name: "Contact", to: "contact" },
+  { name: "Home", to: "/" },
+  { name: "About", to: "/about" },
+  { name: "Skill", to: "/skill" },
+  { name: "Project", to: "/project" },
+  { name: "Contact", to: "/contact" },
 ];
 
 const Navbar = () => {
