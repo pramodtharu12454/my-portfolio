@@ -16,7 +16,7 @@ export default function HomePage() {
         loop
         muted
         playsInline
-        className="fixed top-0 left-0 w-full h-full object-cover -z-10"
+        className="fixed top-0 left-0 w-full h-full  backdrop-filter backdrop-blur-[10px] bg-[rgba(255,255,255,0.5)] blur-[10px] dark:backdrop-blur-[10px] object-cover -z-10"
       >
         <source src="/background.mp4" type="video/mp4" />
         Your browser does not support the video tag.
