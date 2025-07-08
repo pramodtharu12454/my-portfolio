@@ -23,7 +23,7 @@ const HomeSection = () => {
       {/* Right: Content */}
       <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
         <h1 className="text-4xl font-bold text-white-800">
-          I'm <span className="text-red-500">Pramod Tharu</span>
+          I&apos;m <span className="text-red-500">Pramod Tharu</span>
         </h1>
 
         <h2 className="text-xl text-white-600 h-6">

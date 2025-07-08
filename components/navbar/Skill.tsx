@@ -13,7 +13,7 @@ const frontendSkills = [
 const backendSkills = [
   { name: "Node.js", logo: "/node js.png", percent: 80 },
   { name: "Express.js", logo: "/exp..png", percent: 75 },
-  { name: "MongoDB", logo: "/mongo.png", percent: 70 },
+  { name: "MongoDB", logo: "/mongo.jpg", percent: 70 },
   { name: "Next.js", logo: "/nextjs.png", percent: 85 },
 ];
 

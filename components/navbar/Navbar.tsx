@@ -1,8 +1,8 @@
 "use client";
-import { Link as ScrollLink } from "react-scroll";
-import Image from "next/image";
-import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
 const navItems = [
   { name: "Home", to: "home" },
@@ -28,15 +28,12 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6">
           {navItems.map((item) => (
             <li key={item.name}>
-              <ScrollLink
-                to={item.to}
-                smooth={true}
-                duration={500}
-                offset={-80}
+              <Link
+                href={item.to}
                 className="cursor-pointer text-gray-700 hover:text-red-500 font-medium"
               >
                 {item.name}
-              </ScrollLink>
+              </Link>
             </li>
           ))}
         </ul>
@@ -64,16 +61,13 @@ const Navbar = () => {
         <ul className="flex flex-col p-4 space-y-4">
           {navItems.map((item) => (
             <li key={item.name}>
-              <ScrollLink
-                to={item.to}
-                smooth={true}
-                duration={500}
-                offset={-80}
+              <Link
+                href={item.to}
                 onClick={() => setMenuOpen(false)}
                 className="cursor-pointer text-gray-700 hover:text-blue-500 font-medium"
               >
                 {item.name}
-              </ScrollLink>
+              </Link>
             </li>
           ))}
         </ul>
